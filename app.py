@@ -32,4 +32,3 @@ if uploaded_file is not None:
 url = ngrok.connect(port='8501' )
 url
 
-!streamlit run --server.port 80 app.py >/dev/null
